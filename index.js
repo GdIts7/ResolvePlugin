@@ -1,9 +1,9 @@
 module.exports = function (options = {}) {
   if (!options.fromDirectory) {
-    throw new Error('The fromDirectory field is undefined, transform need a main direction to watch.')
+    throw new Error('unreachable: empty variable statement `fromDirectory`')
   }
   if (!options.toDirectory) {
-    throw new Error('The toDirectory field is undefined, need it to transform the origin path.')
+    throw new Error('unreachable: empty variable statement `toDirectory`')
   }
 
   return {
