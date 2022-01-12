@@ -1,12 +1,24 @@
 {
-  "name": "ResolvePlugin",
+  "name": "resolve-webpack-plugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "A webpack plugin that configure one or more project in a single repository.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GdIts7/resolve-webpack-plugin.git"
+  },
+  "author": "GdIts",
+  "license": "MIT",
+  "devDependencies": {
+    "enhanced-resolve": "^4.0.0",
+    "jest": "^27.4.7",
+    "webpack": "^4"
+  }
 }
